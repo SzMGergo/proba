@@ -16,3 +16,4 @@ target: output, dependent variable
 olyan algoritmus, ami tanul, nem kell vele foglalkozni, jól prediktáljon
 patterneket megtanul
 
+pipeline
