@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 import numpy as np
-impport matplotlib.pyplot as plt
 
 def osszead(a, b):
     return a+b
@@ -10,6 +9,11 @@ def szorzas(a, b):
 
 def osztas(a,b):
     return a/b
+
+def generate_synthetic.data(x, coefficients, seed=42, noise_std=1):
+    np.random.seed(seed)
+    y = np.polyval(coefficients[::-1], x) + np.random.normal(0, noise:std, len(x))
+return x, y
 
 def visualize_data(x, y):
     plt.scatter(x, y)
