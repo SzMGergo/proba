@@ -28,4 +28,5 @@ def main():
     x, y = generate_synthetic_data(x_values, coefficients)
     visualize_data(x, y)
 
-main()
+if __name__ == '__main__':
+    main()
